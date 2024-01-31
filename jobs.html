@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Provider Viktor Schmidt</title>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/29f2f8892a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <div class="logo-container">
+          <h2 class="logo">VS GMBH</h2>
+          <div class="underline"></div>
+        </div>
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="services.html">leistungen</a>
+          </li>
+          <li>
+            <a href="company.html">unternehmen</a>
+          </li>
+          <li style="text-decoration: underline">
+            <a href="jobs.html">jobs</a>
+          </li>
+          <li>
+            <a href="contact.html">kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="services.html">leistungen</a>
+          </li>
+          <li>
+            <a href="company.html">unternehmen</a>
+          </li>
+          <li>
+            <a href="jobs.html">jobs</a>
+          </li>
+          <li>
+            <a href="contact.html">kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
+    <header class="section jobs-hero">
+      <!-- section title -->
+      <div class="section-title jobs-title">
+        <h2>jobs</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- end of section title -->
+    </header>
+    <!-- end of header -->
+    <main class="job-main">
+      <!-- single job -->
+      <section class="section-center job-section">
+        <article class="section-info jobs-info">
+          <div class="info-container">
+            <h3>DISPONENT (M/W/D)</h3>
+            <p>
+              Wir suchen eine erfahrene Bürokraft (m/w/d) in Vollzeit als
+              Disponent/in, für die Terminierung unserer Kundenaufträge sowie
+              für die Erstellung der Einsatzpläne unserer Monteure.
+            </p>
+          </div>
+        </article>
+
+        <article class="section-img job-img">
+          <img src="./images/jobs1.webp" alt="" />
+        </article>
+        <button class="btn job-btn">
+          <a href="disponent.html">Mehr erfahren</a>
+        </button>
+      </section>
+      <div class="underline job-underline"></div>
+      <!-- end of single job -->
+      <!-- single job -->
+      <section class="section-center job-section">
+        <article class="section-info jobs-info">
+          <div class="info-container">
+            <h3>SERVICETECHNIKER (M/W/D)</h3>
+            <p>
+              Wir suchen zum nächstmöglichen Eintrittstermin Servicetechniker
+              (m/w/d) in Vollzeit für die Montage, Installation und
+              Inbetriebnahme von Telekommunikations-/ BK-Anlagen.
+            </p>
+          </div>
+        </article>
+
+        <article class="section-img job-img">
+          <img src="./images/jobs2.webp" alt="" />
+        </article>
+        <button class="btn job-btn">
+          <a href="#">Mehr erfahren</a>
+        </button>
+      </section>
+      <!-- end of single job -->
+    </main>
+
+    <!-- button to top -->
+    <button
+      onclick="topFunction()"
+      class="btn top-btn"
+      id="myBtn"
+      title="Go to top"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="address-container">
+          <div class="address">
+            <div class="title-container">
+              <h3>VS GMBH</h3>
+              <div class="info-underline footer-underline"></div>
+            </div>
+            <h4>0162 - 303 - 30 - 33</h4>
+            <h4>netprovider@gmail.com</h4>
+          </div>
+
+          <div class="icons-container">
+            <ul class="social-icons">
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+            <ul class="cookie">
+              <li>
+                <a href="impressum.html">Impressum</a>
+              </li>
+              <li>
+                <a href="ddatenschutz.html">Datenschutz</a>
+              </li>
+              <li>
+                <a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p>&copy; <span id="date"></span>Yana Georgiev. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>

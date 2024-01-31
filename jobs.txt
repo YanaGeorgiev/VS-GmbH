@@ -1,0 +1,41 @@
+ <article class="profil">
+            <ul class="profil-links">
+              <li>
+                Als kommunikationsstarke, durchsetzungsstarke Persönlichkeit
+                besitzen Sie eine schnelle Auffassungsgabe und können
+                Informationen schnell nach dem Grad der Wichtigkeit selektieren.
+              </li>
+              <li>
+                Sie besitzen fundierte Erfahrungen im Umfeld Disposition
+                und/oder Kundenservice und verfügen idealerweise über eine
+                kaufmännische oder technische Ausbildung.
+              </li>
+              <li>
+                Persönlicher und freundlicher Umgang mit Kunden oder Kollegen
+                sind für Sie selbstverständlich.
+              </li>
+              <li>
+                Sie besitzen EDV-Kenntnisse insbesondere in den gängigen
+                MS-Office Anwendungen.
+              </li>
+            </ul>
+          </article>
+           <article class="tasks">
+            <ul class="task">
+              <li>Terminvereinbarung mit Kunden</li>
+              <li>
+                Koordination/Einsatzplanung unserer Installationstechniker
+              </li>
+              <li>
+                Terminklärungen/-verlegung im direkten Kundenkontakt (Telefon,
+                Mail, Brief)
+              </li>
+              <li>
+                Routenplanung/-optimierung für die Techniker im Außendienst
+              </li>
+              <li>Telefonische Betreuung/Unterstützung unserer Techniker</li>
+              <li>
+                Telefonische Betreuung/Unterstützung unserer Partnerunternehmen
+              </li>
+            </ul>
+          </article>
